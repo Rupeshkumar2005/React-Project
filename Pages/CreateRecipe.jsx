@@ -29,9 +29,9 @@ const {data,setdata} = useContext(RecipeContext)
         
             <textarea className='block border-b outline-0 p-2' {...register("instruction")} placeholder='//write intructions seprate by comma'></textarea>
             <select className='block border-b outline-0 p-2' {...register("category")}>
-            <option value="cat-1">Category 1</option>
-            <option value="cat-2">Category 2</option>
-            <option value="cat-3">Category 3</option>
+            <option value="Breakfast">Breakfast</option>
+            <option value="Dinner">Dinner</option>
+            <option value="Lunch">Lunch</option>
             </select>
             
             <button className='block mt-5 bg-gray-900 px-4 py-2 rounded'>Save Recipe</button>
