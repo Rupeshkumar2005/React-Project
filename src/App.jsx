@@ -1,8 +1,13 @@
-import React from 'react'
+import MainRoutes from "../Router/MainRoutes"
+import Navbar from "../components/Navbar"
 
 const App = () => {
   return (
-    <div>App</div>
+    <div className="py-10 px-[10%] w-screen h-screen bg-gray-700 text-white font-thin">
+      <Navbar />
+      <MainRoutes />
+     
+    </div>
   )
 }
 
